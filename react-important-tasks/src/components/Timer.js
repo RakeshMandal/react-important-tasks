@@ -33,7 +33,7 @@ const Timer = () => {
         <button onClick={start}>Start</button>
         <button onClick={stop}>Stop</button>
         <button onClick={restart}>Re Start</button>
-      <p style={{fontSize:"30px",fontWeight:"bold",margin:"0"}}>Timer : {time}</p>
+      <p>Timer : {time}</p>
     </div>
   )
 }

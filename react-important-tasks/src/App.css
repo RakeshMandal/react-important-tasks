@@ -7,10 +7,13 @@
   padding: 20px;
   background: -webkit-linear-gradient(45deg, #e84f0b, #00ff95 80%)
 }
+h3{
+  background: -webkit-linear-gradient(45deg, #e84f0b, #00ff95 80%)
+}
 .timer-container{
   background-color: #3cab7338;
 }
-.timer-container button{
+button{
   margin: 15px;
   padding: 10px;
   width: 10rem;
@@ -18,4 +21,19 @@
   color: rgb(30, 227, 125);
   background-color: black;
   border-radius: 10px;
+}
+p{
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+}
+.user-details{
+  background: -webkit-linear-gradient(45deg, #e84f0b, #00ff95 80%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.user-details ul li{
+list-style: none;
+font-weight: bold;
 }
