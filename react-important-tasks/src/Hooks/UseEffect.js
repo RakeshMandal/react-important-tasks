@@ -5,10 +5,14 @@ const UseEffect = () => {
 
     const API_URL = 'https://jsonplaceholder.typicode.com/users';
 
+    async function getData() {
+      const data = await fetch(API_URL)
+      let json = await data.json()
+      setName(json.name)
+    }
+
     useEffect(()=>{
-        fetch(API_URL)
-        .then(data=>data.json())
-        .then(item=>setName(item))
+      getData()
     },[]);
 
   return (
